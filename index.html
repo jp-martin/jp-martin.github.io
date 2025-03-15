@@ -1,8 +1,209 @@
-<html>
-  <head>
-    <title>JP Martin Solutions</title>
-  </head>
-  <body>
-    Hello World!
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Martin Drupal/PHP Developer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0e0e0;
+            color: #333;
+        }
+        h1 {
+          font-size: 46px;
+          padding-left:20px;
+        }
+        .container {
+          display: flex;
+          max-width: 1200px;
+          margin: 40px auto;
+          background: white;
+          overflow: hidden;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .left-column {
+          width: 35%;
+          background-color: #2A3F5F;
+          color: white;
+          display: flex;
+          flex-direction: column;
+        }
+        .left-section {
+          /*padding: 20px;*/
+        }
+        .left-section h2 {
+            background: #1F2E4A;
+            padding: 10px 15px;
+            margin: 0;
+            text-transform: uppercase;
+        }
+        .left-section ul {
+            padding-left:30px;
+        }
+        .left-section ul li {
+            padding:5px 0;
+        }
+        .left-section p {
+            padding: 15px 25px;
+            margin: 0;
+
+        }
+        .left-column a {
+            color: white;
+            text-decoration: none;
+        }
+        .right-column {
+            width: 65%;
+            padding: 30px;
+            background: white;
+            line-height: 1.4rem;
+        }
+        .right-column h2 {
+            font-size: 18px;
+            text-align: left;
+            border-top: 1px solid #aaa;
+            border-bottom: 1px solid #aaa;
+            padding: 10px 0;
+            margin: 20px 0;
+            color: #2A3F5F;
+            font-size: 1.5rem;
+        }
+        .right-column .section {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        .right-column .date {
+            width: 25%;
+        }
+        .right-column .details {
+            width: 75%;
+        }
+        .right-column .details h3 {
+            margin-top: 0;
+        }
+        .right-column ul {
+            padding-left: 15px;
+        }
+        .right-column ul li {
+            list-style-type: disc;
+            margin-bottom: 5px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .left-column, .right-column {
+                width: 100%;
+            }
+            .right-column .section {
+                flex-direction: column;
+            }
+            .right-column .date, .right-column .details {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <h1>J. Paul Martin</h1>
+            <div class="left-section">
+                <h2>Personal Info</h2>
+                <p>Email: jpm.paulmartin[at]gmail.com</p>
+                <p><a href="https://jpmartin.dev">jpmartin.dev</a></p>
+            </div>
+            <div class="left-section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>PHP, JavaScript, React</li>
+                    <li>CSS, SASS, SCSS</li>
+                    <li>Drupal</li>
+                    <li>UI/UX, QA Testing</li>
+                    <li>Microsoft Office Suite</li>
+                    <li>Web Host Management</li>
+                    <li>AODA / WCAG 2.1 & 2.2 Compliance</li>
+                </ul>
+            </div>
+            <div class="left-section">
+                <h2>Hobbies & Interests</h2>
+                <ul>
+                    <li>Artificial Intelligence & Machine Learning</li>
+                    <li>Augmented Reality & Virtual Reality</li>
+                    <li>Photography</li>
+                    <li>Smart Homes & Automation</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-column">
+            <p>With over a decade of experience as a Web Analyst/Developer, I oﬀer expertise in Website
+Application development, technical leadership, and project management.
+Having successfully developed and maintained AODA-compliant and responsive websites, for
+Hamilton Public Library I am eager to bring my collaboration capabilities, technical proficiency,
+and commitment to excellence to your team.</p>
+            <h2>Work History</h2>
+            <div class="section">
+                <div class="date">2013 - Present</div>
+                <div class="details">
+                    <h3>Analyst/Developer - Hamilton Public Library</h3>
+                    <ul>
+                        <li>Maintaining public facing websites, and applications that cumulatively
+                        handle over five million visits per year</li>
+                        <li>Utilizing a Continuous Improvement development solutions mainly in
+                        Drupal 7/8 on traditional and containerized hosting platforms</li>
+                        <li>Planning, developing, and maintaining the Red Book, a Human Service
+                        Data Specification database of non-profit services and organizations for
+                        the Greater Hamilton Area</li>
+                        <li>Records data automatically supplemented from various public APIs for
+                        location, electoral, and geographical data</li>
+                        <li>Data is publicly available on a REST endpoint and through API updates to
+                        Ontario's 211 information service</li>
+                        <li>Analyze and provide recommendations for hosting, software, SaaS and
+                        other tools that align with strategic priorities, best practices and goals for
+                        the future, while also being cognizant of the costs associated with such
+                        solutions, and investigating all avenues and types of solutions</li>
+                        <li>Technical leadership on web based solutions to get them integrated or
+                        transitioned to for existing workflows and platforms, and/or creating new
+                        processes and procedures</li>
+                        <li>Tier 1 & 2 help desk support for staff</li>
+                        <li>Hpl.ca, redbook.hpl.ca</li>
+                    </ul>
+                </div>
+            </div>
+            <h2>Education</h2>
+            <div class="section">
+                <div class="date">2004 - 2005</div>
+                <div class="details">
+                    <h3>Computer Science Web Applications Program (Co-op) - Honours</h3>
+                    <p>Mohawk College, Hamilton, ON</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="date">2002 - 2003</div>
+                <div class="details">
+                    <h3>Computer Networking Engineering Technician</h3>
+                    <p>RCC Institute of Technology, Vaughan, ON</p>
+                </div>
+            </div>
+            <h2>Certificates</h2>
+            <div class="section">
+                <div class="date">2022 - 2023</div>
+                <div class="details">
+                    <h3>Front End Web & Mobile Development</h3>
+                    <p>Focus on Bootstrap, React, React Native, and Google Cloud.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="date">2019</div>
+                <div class="details">
+                    <h3>Python Foundations</h3>
+                    <p>Intensive 3-day course covering core programming concepts and writing efficient Python code.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
